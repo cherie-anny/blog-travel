@@ -1,15 +1,19 @@
 .posts {
     display: flex;
-    flex-wrap: wrap;
-    
+}
+.news__title {
+    margin-bottom: 30px;
 }
 .post__inner {
    
 }
 .post__item {
-    width: 27%;
-   
-    
+    width: 32%;
+    margin-right: 25px;
+    margin-bottom: 40px;
+}
+.post__item:last-child {
+    margin-right: 0;
 }
 .post__header {
     position: relative;
@@ -29,10 +33,15 @@
 
 .post__title {
     font-family: "PT Serif", sans-serif;
-    font-size: 21px;
+    font-size: 26px;
     line-height: 26px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 10px;
+    opacity: 1;
+    transition: color .3s ease;
+}
+.post__title:hover {
+    opacity: 0.85;
 }
 .post__text {
     margin-bottom: 20px;
