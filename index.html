@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="./css/news.css">
     <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
@@ -28,6 +30,9 @@
                     <a class="logo" href="#">
                         <img src="./img/logo.png" alt="icon: logo">
                     </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
                 </div>
 
 
@@ -74,26 +79,26 @@
     </div>
    
 
-    <section class="expedition">
+     <section class="expedition">
         <div class="container">
             <div class="expedition__inner">
 
                
 
-                <img  class="expedition__img" src="./img/exped.jpg" alt="photo: map">
+                <img  class="expedition__img" src="./img/expedition.jpg" alt="photo: map">
                 <div class="expedition__content">
                     <h4 class="content__title expedition__title">Swiss Alps</h4>
                     <p class="expedition_subtitle">expedition</p>
                     <p class="expedition__text">Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet
                         sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu,
                         luctus et interdum adipiscing wisi.</p>
-                    <p class="chek">
-                        <i class="fas fa-chevron-circle-down"></i>
-                        <span class="chek__text">Quisque lorem tortor fringilla sed</span>
+                    <p class="check">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="check__text">Quisque lorem tortor fringilla sed</span>
                     </p>
-                    <p class="chek">
-                        <i class="fas fa-chevron-circle-down"></i>
-                        <span class="chek__text">Vestibulum id, eleifend justo vel bibendum sapien massa</span>
+                    <p class="check">
+                        <i class="fas fa-check-circle"></i>
+                        <span class="check__text">Vestibulum id, eleifend justo vel bibendum sapien massa</span>
                     </p>
                     <a class="button-book" href="#">Book tour&nbsp;
                         <i class="far fa-arrow-alt-circle-right"></i>
@@ -146,7 +151,7 @@
                     </div>
                     <!--/ .post__item-->
                
-                    <div class="post__item">
+                     <div class="post__item">
                         <div class="post__header">
                             <a href="#">
                                 <img class="post__photo" src="./img/news-2.jpg" alt="photo: landscape-2">
@@ -217,7 +222,7 @@
                         </div>
                     </div>
                     <!--/ .post__item-->
-            </div>
+           </div>
         </div>
         </div>
     </section>
@@ -241,27 +246,29 @@
                     <div class="need__text">
                         Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna dapibus.
                     </div>
-                </div> <!--/ .need item 2-->
+                </div><!-- / .need item 2 -->
                 <div class="need__item">
                     <img class="need__icon" src="./img/need-3.png" alt="icon: need-1">
                     <h4 class="need__title">Important quipment</h4>
                     <div class="need__text">
                         Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna dapibus.
                     </div>
-                </div> <!--/ .need item 3-->
-                <div class="need__item">
+                </div> <!--/ .need item 3 -->
+                 <div class="need__item">
                     <img class="need__icon" src="./img/need-4.png" alt="icon: need-1">
                     <h4 class="need__title">Compass or GPS device</h4>
                     <div class="need__text">
                         Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna dapibus.
                     </div>
-                </div> <!--/ .need item 4-->
+                </div> <!--/ .need item 4 -->
                 
             </div>
         </div>
     </section>
-    <!-- <div class="wrapper">
-        <div class="flex"> -->
+        <div class="container">
+        <h3 class="content__title slider__title">Videos</h3>
+    </div>
+        </div>
             <div class="slider">
                 <div class="slider__item">
                     <img src="./img/slide-7.jpg" alt="">
@@ -278,25 +285,69 @@
                 <div class="slider__item">
                     <img src="./img/slide11.jpg" alt="">
                 </div>
-                <!-- <div class="slider__item">
-                    <img src="./img/slide-3.jpg" alt="">
-                </div> -->
-            </div>
-
-            <!-- <div class="flex__column">
-                <div class="slider">
-
-                </div>
-            </div>
-
-            <div class="flex__column">
-
-            </div>
-        </div> -->
-    <!-- </div> -->
+            </div> 
     
+<section class="gallery">
+    <div class="container">
+        <div class="gallery__inner">
+            <h3 class="content__title gallery__title">Photo gallery</h3>
+            <p class="gallery__subtitle">Phasellus fermentum in, over <span>10’000 photos.</span> Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit.</p>
+            <a href="#" class="btn btn-show">Show photos&nbsp;
+                <i class="far fa-arrow-alt-circle-right"></i>
+            </a>
 
-
+            <a href="#" class="btn btn-social">Instagram&nbsp;
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <div class="bg__gallery"></div>
+</section> 
+<footer class="footer">
+    <div class="container">
+        <div class="footer-column">
+            <div class="footer__left">
+                <img class="footer__logo" src="./img/logo.png" alt="BeWanderer-logo">
+                <p class="footer__subtitle">Phasellus fermentum in. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit.</p>
+            </div>
+            <div class="footer__right">
+                <ul class="box">
+                    <li class="footer__item"><a href="#" class="footer__link"><i class="fas fa-chevron-right"></i>Morbi accum</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link"><i class="fas fa-chevron-right"></i>Nam tellus</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link"><i class="fas fa-chevron-right"></i>Class taciti velit</a></li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <ul class="box">
+                    <li class="footer__item"><a href="#" class="footer__link"><i class="fas fa-chevron-right"></i>Class taciti velit</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link"><i class="fas fa-chevron-right"></i>Mauris justo</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link"><i class="fas fa-chevron-right"></i>Morbi accum</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <small class="copyright">
+                &copy;&nbsp;2021 BeWanderer - BeTheme. All Rights Reserved. Muffin group
+            </small>
+            <ul class="social-networks">
+                <li class="social-item"><a href="#" class="social-link" target="_blank"
+                        aria-label="Link to Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link" target="_blank"
+                        aria-label="Link to Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link" target="_blank"
+                        aria-label="Link to Vimeo"><i class="fab fa-vimeo-v"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link" target="_blank"
+                        aria-label="Link to YouTube"><i class="fab fa-youtube"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link" target="_blank"
+                            aria-label="Link to Flickr"><i class="fab fa-flickr"></i></a></li>
+                <li class="social-item"><a href="#" class="social-link" target="_blank"
+                                aria-label="Link to Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li class="back-to-top"><a href="#"><i class="fas fa-chevron-up"></i></a></li>
+            </ul>
+            
+        </div>
+    </div>
+</footer>
 
 
 

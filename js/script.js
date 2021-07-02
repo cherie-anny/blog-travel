@@ -1,4 +1,29 @@
 $(document).ready(function() {
+    $('.header__burger').click(function(event) {
+        $('.header__burger, .nav').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
     $('.slider').slick({
         arrows:true,
         dots:true,
@@ -28,3 +53,15 @@ $(document).ready(function() {
     //     console.log(nextSlide);
     // });
 });
+
+
+
+
+
+
+
+
+
+
+
+
